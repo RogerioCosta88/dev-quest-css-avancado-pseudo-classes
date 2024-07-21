@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Quest: Pseudo Classes</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1>Pseudo Classes</h1>
+    <p class="not">São palavras que colocamos após um <em>seletor</em> e são separadas pro dois pontos
+        <strong>:</strong>, são utilizadas para várias coisas, como: estado dos <em>seletores</em>, histórico de
+        navegação, etc.
+    </p>
+
+    <h2>Anatômia</h2>
+    <p>Colocamos o <strong>seletor</strong> seguido por <strong>:</strong> e a <strong>pseudo-classe</strong>, tudo
+        escrito junto. Em seguida inserimos entre as <strong>chaves</strong> o nome da <strong>propriedade:</strong> e
+        seu <strong>valor</strong> terminando com <strong>;</strong></p>
+
+    <h2>First Child</h2>
+    <div>
+        <p>O <strong>first-child</strong> é uma <strong>pseudo-classe</strong> que modifica somente o
+            <em>primeiro elemento</em> de uma <strong>div</strong>, por exempo. O <em>segundo</em>
+            <strong>&lt;p&gt;</strong> não receberá o fundo <em>verde</em> aplicado no <strong>CSS</strong>.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid consequatur vitae
+            optio, accusantium quasi velit autem provident, eligendi ipsa quos adipisci earum porro numquam alias quidem
+            assumenda! Laborum, velit fuga.</p>
+    </div>
+
+    <p>Para acessar a página do <strong>first-child</strong>
+        <a href="./first-child.html">Clique aqui</a>
+    </p>
+
+    <h2>Last Child</h2>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ducimus eos illum
+            ut sint esse impedit magnam vitae minima cumque obcaecati expedita, ullam, distinctio repellendus sed libero
+            minus temporibus! Accusantium.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus tempora enim amet rem dicta saepe
+            exercitationem maxime quidem expedita, deleniti cumque tempore aliquam itaque? Delectus sapiente officia
+            modi eos consequuntur.</p>
+        <p>O <strong>last-child</strong> funciona de forma inversa ao <strong>first-child</strong>, somente
+            o último <em>elemento-filho</em>, receberá os <em>estilos</em>.</p>
+    </div>
+
+    <p>Para acessar a página de <strong>last-child</strong> <a href="./last-child.html">Clique aqui</a></p>
+
+    <div>
+        <h2>Not</h2>
+        <p>É uma <strong>pseudo-class</strong> que <strong>não</strong> estilizará elementos que tenham o <em>nome</em>
+            da <em>class</em> determinada.</p>
+    </div>
+
+    <p>Pace acessar a página <strong>not</strong> <a href="./not.html">Clique aqui</a></p>
+
+    <div>
+        <h2>Nth-child: odd</h2>
+        <p>Estiliza todos os <em>elementos</em> <strong>pares</strong></p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit itaque, eum consectetur
+            pariatur numquam nulla delectus doloribus, incidunt dolorum fuga eius esse. Veniam dolore odio earum quam
+            est eveniet a.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus excepturi qui enim eveniet quos
+            fugit, perspiciatis repudiandae delectus, nam quaerat ipsa eos, illo hic dicta exercitationem quasi iure!
+            Voluptatibus, aperiam!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, eos quidem optio porro repellat
+            impedit modi, perspiciatis dicta illum laboriosam, aperiam fuga eius. Quisquam consequatur quasi minus,
+            dicta in nisi.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio sed tempore libero
+            neque eius recusandae dignissimos eaque, atque, nam deleniti quam doloribus saepe a mollitia ut enim aut
+            ratione vitae?</p>
+    </div>
+
+    <p>Para acessar a página <strong>nth-child: odd</strong> <a href="./nth-child-odd.html">Clique aqui</a></p>
+
+    <div>
+        <h2>Nth-child: even</h2>
+        <p>Estiliza todos os <em>elementos</em> <strong>ímpares</strong></p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit itaque, eum consectetur
+            pariatur numquam nulla delectus doloribus, incidunt dolorum fuga eius esse. Veniam dolore odio earum quam
+            est eveniet a.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus excepturi qui enim eveniet quos
+            fugit, perspiciatis repudiandae delectus, nam quaerat ipsa eos, illo hic dicta exercitationem quasi iure!
+            Voluptatibus, aperiam!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, eos quidem optio porro repellat
+            impedit modi, perspiciatis dicta illum laboriosam, aperiam fuga eius. Quisquam consequatur quasi minus,
+            dicta in nisi.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio sed tempore libero
+            neque eius recusandae dignissimos eaque, atque, nam deleniti quam doloribus saepe a mollitia ut enim aut
+            ratione vitae?</p>
+    </div>
+
+    <p>Para acessar a página <strong>nth-child: even</strong> <a href="./nth-child-even.html">Clique aqui</a></p>
+
+    <div>
+        <h2>Nth Child</h2>
+        <p>O <strong>nth-child</strong> estiliza somento o <em>primeiro</em> elemento <em>filho</em> de um grupo
+            de elementos ou a partir do primeiro elemento.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi doloribus harum omnis non facere atque?
+            Saepe id ut repellendus qui, dolorem natus fugit dignissimos cumque, ab debitis rem consequuntur similique?
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolor aut vel, vero optio asperiores magni
+            quaerat est perferendis, exercitationem, culpa ad eum voluptate eos sapiente amet molestiae veniam enim!</p>
+    </div>
+
+    <p>Para acessar a página <strong>nth-child</strong> <a href="./nth-child.html">Clique aqui</a></p>
+
+    <div>
+        <h2>Last Child</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi doloribus harum omnis non facere atque?
+            Saepe id ut repellendus qui, dolorem natus fugit dignissimos cumque, ab debitis rem consequuntur similique?
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolor aut vel, vero optio asperiores magni
+            quaerat est perferendis, exercitationem, culpa ad eum voluptate eos sapiente amet molestiae veniam enim!</p>
+        <p>Funciona de forma inversa ao <strong>nth-first-child</strong>. O <strong>nth-last-child</strong> estiliza
+            começando pelo último elemento.</p>
+    </div>
+
+    <p>Para acessar a página <strong>last-child</strong> <a href="./nth-last-child.html">Clique aqui</a></p>
+
+    <h2>Only child</h2>
+    <div>
+        <p>O <strong>only child</strong> estiliza elementos que são <em>filhos únicos</em></p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente est, saepe exercitationem explicabo
+            voluptas obcaecati sit officiis fugit temporibus omnis sed vero, dicta quis, voluptate fuga. Magnam quaerat
+            velit temporibus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum distinctio illo sit quam eligendi veniam maxime
+            ipsa dignissimos, consectetur, incidunt non pariatur quibusdam deleniti, eveniet voluptatibus consequatur
+            magni! Consequatur, pariatur!</p>
+    </div>
+
+    <p>Para acessar a página <strong>only child</strong> <a href="./only-child.html">Clique aqui</a></p>
+</body>
+
+</html>
